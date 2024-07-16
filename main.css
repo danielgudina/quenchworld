@@ -1,0 +1,194 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    
+}
+
+.navbar {
+    background: #91f158;
+ padding-top: 0px;
+ padding-bottom: 0%;
+
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    
+}
+
+
+ 
+/* footer styling */
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+margin-top: 10px;
+    height: 50px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 10px 0;
+}
+
+/* spacing on all sections */
+#home,
+#contact {
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+ 
+
+#contact {
+    padding-bottom: 2rem;
+}
+
+.button {
+    background-color: rgb(97, 153, 6);
+    opacity: 70%;
+    text-decoration: black;
+    height: 70px;
+    width: 200px;
+
+}
+
+#wrap {
+    background-color: #ffffff;
+    width: 960px;
+    border: thin solid black;
+    margin: 0 auto;
+
+}
+
+
+#innerwrap {
+    background-image: url(images/inner-wrap_bg.png);
+    background-repeat: repeat-x;
+    height: 400px;
+}
+
+#innerwrap:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+#sidebar {
+    background-repeat: repeat-x;
+    background-color: #EAB8C3;
+     text-align: center;
+
+}
+
+#maincontent {
+    width: 1000px;
+    float: right;
+    text-align: center;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+
+    margin-bottom: 20px;
+
+}
+
+#sidebar p,
+#sidebar h2,
+#sidebar h3,
+#sidebar h4,
+#maincontent p,
+#maincontent h1,
+#maincontent h2,
+#maincontent h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sidebar p {
+    margin-left: 30px;
+}
+
+
+#sidebar h2,
+#maincontent h2 {
+    margin-top: 15px;
+}
+
+
+ 
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+	border-left: solid 1px #CCC;
+	border-right: solid 1px #999;
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #CCC;
+}
+
+ 
+ 
+.CollapsiblePanelTab {
+	font: bold 0.7em sans-serif;
+	background-color: #DDD;
+	border-bottom: solid 1px #CCC;
+	margin: 0px;
+	padding: 2px;
+	cursor: pointer;
+	 
+}
+
+ 
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+}
+
+ 
+.CollapsiblePanelTab a {
+	color: black;
+	text-decoration: none;
+}
+
+ 
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background-color: #EEE;
+}
+
+ 
+
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+ background-color: #EFEFEF
+}
+ 
+ 
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+	background-color: #CCC;
+}
+
+ 
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	background-color: #DFCB9D;
+}
